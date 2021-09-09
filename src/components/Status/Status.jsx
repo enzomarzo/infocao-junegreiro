@@ -1,8 +1,8 @@
 import React from 'react'
 import './styles.scss'
 
-const Status = props => (
+export default function Status(props) {
+  return (
   <p className="status">{props.status}</p>
-)
-
-export default Status
+  )
+}

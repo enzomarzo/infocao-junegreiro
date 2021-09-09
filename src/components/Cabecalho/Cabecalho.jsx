@@ -3,7 +3,7 @@ import './styles.scss'
 
 import Status from '../Status'
 
-const Cabecalho = props => {
+export default function Cabecalho(props) {
   return (
     <div className="cabecalho">
       <h1 className="cabecalho__titulo">Seja bem-vindo ao InfoCão</h1>
@@ -14,5 +14,3 @@ const Cabecalho = props => {
     </div>
   )
 }
-
-export default Cabecalho

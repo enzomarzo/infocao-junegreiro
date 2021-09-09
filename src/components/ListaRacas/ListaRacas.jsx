@@ -1,7 +1,7 @@
 import React from 'react'
 import './styles.scss'
 
-const ListaRacas = props => {
+export default function ListaRacas(props) {
   return (
     <ul className="lista-racas">
       {
@@ -19,4 +19,3 @@ const ListaRacas = props => {
   )
 }
 
-export default ListaRacas
